@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://hotel-frontend-rho-six.vercel.app/",
     credentials: true,
   })
 );
